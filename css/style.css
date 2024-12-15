@@ -1,0 +1,529 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ****************************general **********************************/
+:root{
+	font-size: 92.5%;
+}
+html,
+body {
+font-family: 'Roboto', sans-serif;
+  background:#eee;
+  color: #222;
+}
+ /*h1,h2,h3,h4,h5,h6{
+	font-family: "Staatliches",cursive;
+}*/
+h1,
+h2,
+h3 {
+  margin-bottom: 20px;
+  color: #222;
+}
+a{
+	color: #333;
+	text-decoration:none;
+}
+p {
+  margin-bottom: 10px;
+}
+
+.separator {
+  margin: 20px auto;
+  height: 10px;
+  width: 100px;
+  background: #111;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: white;
+  color: #222;
+}
+
+.btn-dark {
+  background: #222;
+  color: white;
+}
+
+.btn-dark:hover {
+  background: white;
+  color: #222;
+  border: 1px solid #222;
+}
+
+.btn-primary:hover {
+  background: #222;
+  color: white;
+}
+
+.container {
+  max-width: 1000px;
+  display: block;
+  margin: 20px;
+}
+
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.underline {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  color: white;
+}
+
+.chip {
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  border-radius: 100%;
+  background: #333;
+  color: white;
+}
+
+.chip-purple {
+  background: #be418c;
+}
+
+.chip-brown {
+  background: #8c5e24;
+}
+.chip-blue{
+	background:#00adef ;
+}
+/********************************* header *******************************/
+
+.header {
+  background-color:#096565;
+  overflow: auto;
+  line-height: 1.3em;
+  /*padding: 1rem 2rem;*/
+}
+ nav{
+	position: sticky;
+	top: 0;
+}
+.header nav h1 {
+  float: left;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+.header nav h1 a {
+  color: white;
+}
+
+.header nav ul {
+  float: right;
+  list-style: none;
+}
+
+.header nav ul li {
+  float: left;
+}
+
+.header nav ul li a {
+  color: white;
+  padding: 20px;
+  display: block;
+}
+
+.header nav ul li a:hover {
+  background-color: SlateBlue;
+}
+
+.active {
+  background: #333;
+}
+
+/* **************************************vp ***********************************/
+
+.vp {
+	flex:auto;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+  min-height:800px;
+  background: url(../images/centre.jpg) center center;
+  background-size: cover;
+  text-align: center;
+}
+
+.vp-content {
+  max-width: 800px;
+  text-align:center;
+  padding:1rem;;
+  padding-top: 200px;
+  color: white;
+  display: block;
+  margin: auto;
+ 
+}
+
+.vp-content h1 {
+  font-size: 2rem;  
+  color:white;
+  background: rgba(0,0,0,0.5);
+  
+}
+
+.vp-content p{
+  font-size: 1,8rem;
+  font-weight:300;
+  letter-spacing: 1px;
+  line-height: 1.9em;
+  background: rgba(0,0,0,0.5);
+}
+
+strong {
+  color:#ffd700;
+  font-weight: 400;
+}
+em{
+	color: #555;
+}
+/* **************************************features ******************************/
+
+.features {
+  overflow: auto;
+  padding: 10rem 1rem 10rem 1rem;
+  text-align: center;
+}
+
+.feature {
+  float: left;
+  width: 50%;
+
+}
+.feature p {
+  border: 0px solid black;
+  margin: 25px;
+  background-color:#;
+}
+/********************************* fleuve *****************************/
+
+.fleuve {
+  height: 400px;
+  background: url(../images/fleuve.jpg) center center/cover;
+}
+
+/* ********************reservation *************************************/
+
+.reservation {
+  padding: 10rem 1rem 10rem 1rem;
+  text-align: center;
+}
+
+/* ****************************footer ********************************/
+
+footer {
+  background-color:#168f8f;
+  color: white;
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0px;
+}
+
+/* *************************************where ***************************************/
+.b {
+	flex:auto;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+  min-height:800px;
+  background: url(../images/centre.jpg) center center;
+  background-size: cover;
+  text-align: center;
+}
+.where {
+  padding: 180px 0px 100px 0px;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.where-img {
+  float: left;
+  width: 50%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.where-text {
+  float: right;
+  width: 50%;
+}
+/*************************************** bureau -comite***************************************/
+ul{
+	list-style: none;
+}
+.co {
+	flex:auto;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+  min-height:800px;
+  background: url(../images/carte.png) center center;
+  background-size: cover;
+  text-align: center;
+}
+.comite {
+   padding: 10rem 0rem 10rem 0rem;
+  overflow: auto;
+  min-height: 100vh;
+}
+.comite-list{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.comite-elem{
+	border: 1px solid#ddd;
+	background: white;
+	margin:1rem;
+	
+}
+.container {
+  display:block;
+  max-width: 1200px;
+  margin: auto;
+}
+.title{
+  font-weight: 300;
+  font-size: 2rem; 
+  margin-bottom: 3rem;
+   }
+.comite-elem-img {
+  float: center;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.comite-elem-text {
+  float: center;
+  width: 100%;
+}
+
+/************************Conseillers **********************/
+
+.conseillers{
+	padding: 3rem 1rem 3rem 1rem;
+}
+
+.conseillers-content{
+	display: flex;
+	flex-direction: column;
+}
+
+.conseillers-elem{
+
+	background: white;
+	border-radius: 5px;
+	padding: 2rem;
+	display: flex;
+	flex-flow: row  nowrap;
+	justify-content:space-between;
+	align-items:center;
+	margin-bottom: 1rem;
+}
+
+.conseillers-elem-text{
+	padding: 0 2rem;
+}
+.conseillers-elem-text p i{
+	margin: 0.2rem;
+}
+.conseillers-elem-profil{
+	
+}
+.conseillers-elem-profil p{
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
+
+.conseillers-elem-profil img{
+	width: 50px;
+	border-radius: 50px;
+	margin-bottom: 0.5rem;	
+}
+/**
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}*/
+
+/************************************** contact ********************************/
+.cont {
+	flex:auto;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+  min-height:800px;
+  background: url(../images/carte.png) center center;
+  background-size: cover;
+  text-align: center;
+}
+.contact {
+  padding: 10reem 1rem 10rem 1rem;
+  min-height: 100vh;
+}
+
+.contact-form-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-form-container form label {
+  display: block;
+  font-weight: 700;
+}
+
+.contact-form-container form input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.contact-form-container form textarea {
+  min-height: 80px;
+}
+
+.contact-form button{
+	display: block;
+	margin: 3rem auto;
+	padding: 1rem 2rem;
+	border: 0;
+	border-radius:30px;
+	background: #f1c40f;
+	color:white;
+	font-weight: 700;
+	font-size: 1.3rem;
+	cursor: pointer;
+	
+}
+/***************************Gallery photos ************************************/
+
+.bg-dark {
+  background: #333;
+  color: white;
+}
+
+.who {
+  display: flex;
+  flex-flow: row nowrap;  
+}
+
+.who-content-img {
+  flex: 1;
+  background: url(../images/clae.jpeg) center center/cover;
+}
+
+.who-content-text {
+  flex: 1;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.who-content-text h2 {
+  margin-bottom: 2rem;
+}
+
+.who-content-text p {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}
+
+/*********************** GALLERY: photos réunion Evènements *****************/
+
+.reunion {	
+  padding: 5rem 0rem 5rem 0rem;
+}
+
+.gallery {
+   padding: 10rem 0rem 10rem 0rem
+  overflow: auto;
+  min-height: 100vh;
+}
+.gallery-list{
+ display: flex; 
+  flex-flow: row nowrap;
+  justify-content: space-between;
+ 
+}
+
+.gallery-elem{	
+	
+	border: 1px solid #ddd;
+	background: white;
+	margin:1rem;
+	flex:1;
+	
+}
+.gallery-elem-img {
+  width: 100%;
+}
+
+.gallery-elem-img img {
+  width: 100px;
+  height:100px;
+  margin-top: 2rem;
+}
+.gallery-elem-text {
+  float: center;
+  width: 100%;
+}
+.gallery-separator{
+	margin: 1rem auto;
+	height: 1px;
+	width: 50px;
+	background: #333;
+}

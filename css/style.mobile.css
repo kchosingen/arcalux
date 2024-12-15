@@ -1,0 +1,93 @@
+/* VP + header */
+
+header {
+	flex-direction:column;
+}
+
+header ul {
+	flex-direction: column;
+	text-align: center;
+}
+header ul li{
+	margin-top: 1.5rem;
+    padding: 0.5rem;
+    border-bottom: 1px dotted #ddd;
+}
+.vp-content h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.vp-content p{
+  font-size: 1,5rem;
+  font-weight:400; 
+  background: rgba(0,0,0,0.5);
+}
+
+/* features */
+
+.feature {
+ padding:5rem 1rem 5rem 1rem;
+  float: none;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+/* Réservations */
+.reservation {
+  padding: 10rem 1rem 10rem 1rem;
+  text-align: center;
+}
+.comite-list{
+  flex-direction: column;
+}
+
+/***Who***/
+
+.who {
+  flex-direction: column;
+}
+
+.who-content-img {
+	min-height: 300px;
+}
+
+.who-content-text {
+	padding: 4rem 2rem;
+}
+
+/* testimonials */
+
+.testimonials-elem{
+	flex-direction: column;
+}
+
+.testimonials-elem-reverse{
+	flex-direction:column-reverse;
+}
+
+
+.testimonials-elem-profil-text{
+	text-align: center;
+}
+
+
+.testimonials-elem-profil img{
+	display: block;
+	margin: 2rem auto;
+}
+
+/*****contact *****/
+
+.contact{
+	padding: 5rem 1rem 5rem 2rem;
+}
+
+.contact-form button{
+	padding: 3rem auto 0 auto;
+}
+
+
+
+
+
+
